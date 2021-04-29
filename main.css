@@ -1,0 +1,67 @@
+body {
+  background-color: #72788C;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.content {
+  padding-left: 50px;
+}
+
+.copyright {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+.links {
+  margin-top: 100px;
+}
+
+a {
+  color: #fff;
+}
+
+footer {
+  margin-top: 100px;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  position: relative;
+  width: auto;
+  left: -18px;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    color: #241DB3;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    padding-left: 20px;
+  }
+
+  .copyright {
+    margin-top: 50px;
+  }
+
+  .links {
+    margin-top: 50px;
+  }
+}
